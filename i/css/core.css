@@ -1,0 +1,163 @@
+/* Screen Layout */
+
+html {
+	background: #eeefdb url(../images/bgpattern.jpg);
+}
+
+body {
+	background: transparent;
+	color: #363636;
+	font: normal 1.0625em/1.5em "Times New Roman", Times, serif;
+	letter-spacing: 110%;
+	word-spacing: 110%;
+	text-align: center;
+}
+
+.page {
+	background: url(../images/bg.gif) repeat-y;
+	margin: 0 auto;
+	text-align: left;
+	padding: 22px 0 100px 0;
+	width: 782px;
+}
+
+.container {
+	width: 640px;
+	display: block;
+	margin: 0 auto;
+}
+
+.header {
+	width: 640px;
+	display: block;
+}
+	
+.content {
+	width: 400px;
+	display: block;
+}
+
+.sidebar {
+	width: 170px;
+	float: right;
+	margin: 10px 0 0 40px;
+	padding: 16px 15px 15px 15px;
+	background: #eeefdb;
+}
+
+.footer {
+	width: 640px;
+	margin-top: 55px;
+	padding-top: 12px;
+	border-width: 3px;
+	border-style: double none none none;
+	border-color: #9fb28b;
+}
+
+
+
+
+/* Styling Elements */
+
+h1 {
+	color: #003f57;
+	font: normal 95px "Times New Roman", Times, serif;
+	letter-spacing: -0.01em;
+	word-spacing: -.01em;
+	margin: 0px 0px 0px 47px;
+	padding: 0px;
+	display: inline;
+}
+
+h4 {
+	text-align: left;
+	color: #464646;
+	font: normal 1.0625em/1.25em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	margin: 0 46px 0 0;
+	padding: 47px 0 0 0;
+	float: right;
+}
+
+h2 {
+	background: url(../images/swashleftright.gif) no-repeat;
+	text-align: center;
+	color: #636363;
+	font: normal 0.79em "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	word-spacing: 0.025em;
+	margin: 26px 0px 32px 0px;
+	display: block;
+}
+
+.phone {
+	color: #363636;
+	font-size: 1.08em;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+}
+
+.intro {
+	color: #0a4258;
+	font: normal 1.3125em/1.48em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: -0.018em;
+	word-spacing: -0.018em;
+	text-transform: none;
+	margin-bottom: 21px;
+}
+
+h3 {
+	text-align: center;
+	color: #0a4258;
+	font: normal 1.0625em/1.25em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	word-spacing: 0.025em;
+}
+
+h5 {
+	text-align: center;
+	color: #013e56;
+	font: normal 0.8125em/1.125em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	word-spacing: 0.1em;
+	margin-bottom: 10px;
+}
+
+.image {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.vcard {
+	text-align: left;
+	color: #464646;
+	font: normal 0.8125em/1.25em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: none;
+	letter-spacing: 0.0125em;
+	word-spacing: 0em;
+	margin-bottom: 5px;
+}
+
+.article {
+	line-height: 1.42em;
+	margin-bottom: 17px;
+	letter-spacing: .005em;
+	word-spacing: .005em;
+}
+
+em {
+	font-style: italic;
+}
+
+.copyright {
+	text-align: center;
+	color: #464646;
+	font: normal 11px "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	word-spacing: .01em;
+}
