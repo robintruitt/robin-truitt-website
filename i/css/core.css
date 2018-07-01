@@ -56,6 +56,10 @@ body {
 
 /* Styling Elements */
 
+abbr {
+	text-decoration: none;
+}
+
 em {
 	font-style: italic;
 }
