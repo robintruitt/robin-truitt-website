@@ -31,7 +31,7 @@ body {
 	width: 640px;
 	display: block;
 }
-	
+
 .content {
 	width: 400px;
 	display: block;
@@ -54,10 +54,15 @@ body {
 	border-color: #9fb28b;
 }
 
-
-
-
 /* Styling Elements */
+
+abbr {
+	text-decoration: none;
+}
+
+em {
+	font-style: italic;
+}
 
 h1 {
 	color: #003f57;
@@ -67,17 +72,6 @@ h1 {
 	margin: 0px 0px 0px 47px;
 	padding: 0px;
 	display: inline;
-}
-
-h4 {
-	text-align: left;
-	color: #464646;
-	font: normal 1.0625em/1.25em "Trebuchet MS", Arial, Helvetica, sans-serif;
-	letter-spacing: 0.05em;
-	word-spacing: 0.05em;
-	margin: 0 46px 0 0;
-	padding: 47px 0 0 0;
-	float: right;
 }
 
 h2 {
@@ -92,22 +86,6 @@ h2 {
 	display: block;
 }
 
-.phone {
-	color: #363636;
-	font-size: 1.08em;
-	letter-spacing: 0em;
-	word-spacing: 0em;
-}
-
-.intro {
-	color: #0a4258;
-	font: normal 1.3125em/1.48em "Trebuchet MS", Arial, Helvetica, sans-serif;
-	letter-spacing: -0.018em;
-	word-spacing: -0.018em;
-	text-transform: none;
-	margin-bottom: 21px;
-}
-
 h3 {
 	text-align: center;
 	color: #0a4258;
@@ -115,6 +93,17 @@ h3 {
 	text-transform: uppercase;
 	letter-spacing: 0.025em;
 	word-spacing: 0.025em;
+}
+
+h4 {
+	text-align: left;
+	color: #464646;
+	font: normal 1.0625em/1.25em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	margin: 0 46px 0 0;
+	padding: 47px 0 0 0;
+	float: right;
 }
 
 h5 {
@@ -127,9 +116,41 @@ h5 {
 	margin-bottom: 10px;
 }
 
+.article {
+	line-height: 1.42em;
+	margin-bottom: 17px;
+	letter-spacing: .005em;
+	word-spacing: .005em;
+}
+
+.copyright {
+	text-align: center;
+	color: #464646;
+	font: normal 11px "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	word-spacing: .01em;
+}
+
 .image {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+.intro {
+	color: #0a4258;
+	font: normal 1.3125em/1.48em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: -0.018em;
+	word-spacing: -0.018em;
+	text-transform: none;
+	margin-bottom: 21px;
+}
+
+.phone {
+	color: #363636;
+	font-size: 1.08em;
+	letter-spacing: 0em;
+	word-spacing: 0em;
 }
 
 .vcard {
@@ -140,24 +161,4 @@ h5 {
 	letter-spacing: 0.0125em;
 	word-spacing: 0em;
 	margin-bottom: 5px;
-}
-
-.article {
-	line-height: 1.42em;
-	margin-bottom: 17px;
-	letter-spacing: .005em;
-	word-spacing: .005em;
-}
-
-em {
-	font-style: italic;
-}
-
-.copyright {
-	text-align: center;
-	color: #464646;
-	font: normal 11px "Times New Roman", Times, serif;
-	text-transform: uppercase;
-	letter-spacing: 0.01em;
-	word-spacing: .01em;
 }
